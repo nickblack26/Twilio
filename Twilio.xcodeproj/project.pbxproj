@@ -12,6 +12,19 @@
 		1DD67F8E2C1CC43200B287B5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67F8D2C1CC43200B287B5 /* Item.swift */; };
 		1DD67F902C1CC43300B287B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD67F8F2C1CC43300B287B5 /* Assets.xcassets */; };
 		1DD67F932C1CC43300B287B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD67F922C1CC43300B287B5 /* Preview Assets.xcassets */; };
+		1DD67FA32C1CC6A500B287B5 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67F9D2C1CC6A500B287B5 /* Links.swift */; };
+		1DD67FA42C1CC6A500B287B5 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67F9E2C1CC6A500B287B5 /* Flags.swift */; };
+		1DD67FA52C1CC6A500B287B5 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67F9F2C1CC6A500B287B5 /* Definition.swift */; };
+		1DD67FA62C1CC6A500B287B5 /* FlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FA02C1CC6A500B287B5 /* FlowState.swift */; };
+		1DD67FA72C1CC6A500B287B5 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FA12C1CC6A500B287B5 /* Offset.swift */; };
+		1DD67FA82C1CC6A500B287B5 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FA22C1CC6A500B287B5 /* Properties.swift */; };
+		1DD67FAA2C1CC6AC00B287B5 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FA92C1CC6AC00B287B5 /* Flow.swift */; };
+		1DD67FAD2C1CCA7400B287B5 /* FlowsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FAC2C1CCA7400B287B5 /* FlowsListView.swift */; };
+		1DD67FB02C1CDED900B287B5 /* Flow+FlowFeatureCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FAF2C1CDED900B287B5 /* Flow+FlowFeatureCollection.swift */; };
+		1DD67FB22C1CE50000B287B5 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FB12C1CE50000B287B5 /* RefreshButton.swift */; };
+		1DD67FB42C1CF08800B287B5 /* GenericListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FB32C1CF08800B287B5 /* GenericListView.swift */; };
+		1DD67FB62C1CF2ED00B287B5 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FB52C1CF2ED00B287B5 /* TaskQueue.swift */; };
+		1DD67FB82C1CF52300B287B5 /* FlowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD67FB72C1CF52300B287B5 /* FlowDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		1DD67F8F2C1CC43300B287B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD67F922C1CC43300B287B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DD67F942C1CC43300B287B5 /* Twilio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Twilio.entitlements; sourceTree = "<group>"; };
+		1DD67F9D2C1CC6A500B287B5 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		1DD67F9E2C1CC6A500B287B5 /* Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		1DD67F9F2C1CC6A500B287B5 /* Definition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		1DD67FA02C1CC6A500B287B5 /* FlowState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowState.swift; sourceTree = "<group>"; };
+		1DD67FA12C1CC6A500B287B5 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
+		1DD67FA22C1CC6A500B287B5 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		1DD67FA92C1CC6AC00B287B5 /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flow.swift; path = "../../../../Downloads/Flow Swift (quicktype)/Flow.swift"; sourceTree = "<group>"; };
+		1DD67FAC2C1CCA7400B287B5 /* FlowsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowsListView.swift; sourceTree = "<group>"; };
+		1DD67FAF2C1CDED900B287B5 /* Flow+FlowFeatureCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flow+FlowFeatureCollection.swift"; sourceTree = "<group>"; };
+		1DD67FB12C1CE50000B287B5 /* RefreshButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		1DD67FB32C1CF08800B287B5 /* GenericListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListView.swift; sourceTree = "<group>"; };
+		1DD67FB52C1CF2ED00B287B5 /* TaskQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskQueue.swift; sourceTree = "<group>"; };
+		1DD67FB72C1CF52300B287B5 /* FlowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,8 @@
 		1DD67F882C1CC43200B287B5 /* Twilio */ = {
 			isa = PBXGroup;
 			children = (
+				1DD67FAB2C1CCA6600B287B5 /* Views */,
+				1DD67F9A2C1CC45E00B287B5 /* Models */,
 				1DD67F892C1CC43200B287B5 /* TwilioApp.swift */,
 				1DD67F8B2C1CC43200B287B5 /* ContentView.swift */,
 				1DD67F8D2C1CC43200B287B5 /* Item.swift */,
@@ -70,6 +98,33 @@
 				1DD67F922C1CC43300B287B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DD67F9A2C1CC45E00B287B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DD67F9F2C1CC6A500B287B5 /* Definition.swift */,
+				1DD67F9E2C1CC6A500B287B5 /* Flags.swift */,
+				1DD67F9D2C1CC6A500B287B5 /* Links.swift */,
+				1DD67FA12C1CC6A500B287B5 /* Offset.swift */,
+				1DD67FA22C1CC6A500B287B5 /* Properties.swift */,
+				1DD67FA02C1CC6A500B287B5 /* FlowState.swift */,
+				1DD67FA92C1CC6AC00B287B5 /* Flow.swift */,
+				1DD67FAF2C1CDED900B287B5 /* Flow+FlowFeatureCollection.swift */,
+				1DD67FB52C1CF2ED00B287B5 /* TaskQueue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DD67FAB2C1CCA6600B287B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DD67FB12C1CE50000B287B5 /* RefreshButton.swift */,
+				1DD67FAC2C1CCA7400B287B5 /* FlowsListView.swift */,
+				1DD67FB32C1CF08800B287B5 /* GenericListView.swift */,
+				1DD67FB72C1CF52300B287B5 /* FlowDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +197,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD67FA32C1CC6A500B287B5 /* Links.swift in Sources */,
+				1DD67FA72C1CC6A500B287B5 /* Offset.swift in Sources */,
 				1DD67F8C2C1CC43200B287B5 /* ContentView.swift in Sources */,
+				1DD67FA42C1CC6A500B287B5 /* Flags.swift in Sources */,
+				1DD67FB02C1CDED900B287B5 /* Flow+FlowFeatureCollection.swift in Sources */,
+				1DD67FB82C1CF52300B287B5 /* FlowDetailView.swift in Sources */,
+				1DD67FA52C1CC6A500B287B5 /* Definition.swift in Sources */,
 				1DD67F8E2C1CC43200B287B5 /* Item.swift in Sources */,
+				1DD67FB62C1CF2ED00B287B5 /* TaskQueue.swift in Sources */,
+				1DD67FAD2C1CCA7400B287B5 /* FlowsListView.swift in Sources */,
+				1DD67FAA2C1CC6AC00B287B5 /* Flow.swift in Sources */,
 				1DD67F8A2C1CC43200B287B5 /* TwilioApp.swift in Sources */,
+				1DD67FB22C1CE50000B287B5 /* RefreshButton.swift in Sources */,
+				1DD67FB42C1CF08800B287B5 /* GenericListView.swift in Sources */,
+				1DD67FA82C1CC6A500B287B5 /* Properties.swift in Sources */,
+				1DD67FA62C1CC6A500B287B5 /* FlowState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +348,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Twilio/Preview Content\"";
 				DEVELOPMENT_TEAM = PK8WVYF36Y;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -308,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Twilio/Preview Content\"";
 				DEVELOPMENT_TEAM = PK8WVYF36Y;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
